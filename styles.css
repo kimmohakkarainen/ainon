@@ -1,21 +1,88 @@
+:root {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 0.5em;
+}
+
+.a {
+ 
+  padding: 2em;
+  border-radius: 0em;
+}
+.b {
+ 
+  padding: 2em;
+  border-radius: 0em;
+}
+.c {
+
+  padding: 0em 2em 2em;
+  border-radius: 0em;
+}
+.d {
+
+  padding: 0em 2em 2em;
+  border-radius: 0em;
+}
+.e {
+ 
+  padding: 0em 2em 2em;
+  border-radius: 0em;
+}
+.f {
+
+  padding: 0em 2em 2em;
+  border-radius: 0em;
+}
+.g {
+
+  padding: 0em 2em 2em;
+  border-radius: 0em;
+}
+.h {
+ 
+  padding: 0em 2em 2em;
+  border-radius: 0em;
+}
+.i {
+ 
+  
+  padding: 0em 2em 2em;
+  border-radius: 0em;
+}
+.j {
+ 
+  padding: 0em 2em 2em;
+  border-radius: 0em;
+}
 .Ylareuna {
-  border: 1px solid white;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
+  /* border: 1px solid black; */
+  border-bottom: 1px solid black;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 0.5em;
 }
 
 .nimi {
   border: 1px solid white;
+  padding: 0.5em;
 }
 
 .osoite {
   border: 1px solid white;
+  padding: 1em;
 }
 .kuva {
-  /*
-  width: 100px;
-  height: 100px;
-  */
+}
+
 }
